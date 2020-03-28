@@ -17,7 +17,7 @@ public class MockExampleTest {
     @Test
     public void testWebHook() {
         RestTemplate restTemplate = new RestTemplate();
-        String result = restTemplate.postForObject("https://enx8m1v7ntjv.x.pipedream.net/sharp", "Hi from sharp", String.class);
+        String result = restTemplate.postForObject("https://ent2v6jy8ksg.x.pipedream.net", "Hi from sharp", String.class);
         System.out.println(result);
     }
 
